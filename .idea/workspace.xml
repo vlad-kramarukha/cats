@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="fix: fix docker-compose.yaml" />
+    <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="fix: fix docker-compose.yaml">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +183,7 @@
       <workItem from="1766581173793" duration="238000" />
       <workItem from="1766581420163" duration="5387000" />
       <workItem from="1766587091252" duration="144000" />
-      <workItem from="1766587269979" duration="1013000" />
+      <workItem from="1766587269979" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -231,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766588288654</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: fix docker-compose.yaml">
+      <option name="closed" value="true" />
+      <created>1766588408940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766588408940</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: fix docker-compose.yaml">
+      <option name="closed" value="true" />
+      <created>1766588476704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766588476704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
