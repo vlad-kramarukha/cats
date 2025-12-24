@@ -84,10 +84,10 @@ function rotateCard() {
 
 <template>
     <div class="text-center px-2 py-2 mb-6">
-        <h1 class="text-7xl mb-4">Здесь ничего нет</h1>
-        <p class="text-5xl">
+        <h1 class="text-7xl max-2xl:text-5xl max-md:text-3xl mb-4">Здесь ничего нет</h1>
+        <p class="text-5xl max-2xl:text-3xl max-md:text-xl">
             А это
-            <span class="text-6xl bg-clip-text text-transparent" :class="catNameColor">
+            <span class="text-6xl max-2xl:text-4xl max-md:text-2xl bg-clip-text text-transparent" :class="catNameColor">
                 {{ currentCatName }}
             </span>
         </p>
@@ -118,7 +118,7 @@ function rotateCard() {
             </svg>
         </div>
 
-        <p class="text-5xl">Нажми</p>
+        <p class="text-5xl max-2xl:text-3xl max-md:text-xl">Нажми</p>
     </div>
 </template>
 
@@ -126,7 +126,8 @@ function rotateCard() {
 .card {
     position: relative;
     color: white;
-    width: 500px;
+    min-width: 150px;
+    max-width: 500px;
     margin: 0 auto;
     user-select: none;
     touch-action: none;
