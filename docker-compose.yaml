@@ -16,6 +16,6 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./app
     networks:
       - cats
