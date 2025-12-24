@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="fix docker-compose.yaml">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +185,7 @@
       <workItem from="1766581173793" duration="238000" />
       <workItem from="1766581420163" duration="5387000" />
       <workItem from="1766587091252" duration="144000" />
-      <workItem from="1766587269979" duration="3844000" />
+      <workItem from="1766587269979" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -298,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766590565870</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix docker-compose.yaml">
+      <option name="closed" value="true" />
+      <created>1766591167912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766591167912</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix docker-compose.yaml">
+      <option name="closed" value="true" />
+      <created>1766591248943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766591248943</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
