@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="fix docker-compose.yaml">
+      <change afterPath="$PROJECT_DIR$/app/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/components/CatComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CatComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
+    "javascript.nodejs.core.library.configured.version": "24.12.0",
+    "javascript.nodejs.core.library.typings.version": "24.10.4",
     "javascript.preferred.runtime.type.id": "bun",
     "last_opened_file_path": "D:/home/cats-app/app",
     "node.js.detected.package.eslint": "true",
@@ -72,7 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "bun",
     "npm.build (1).executor": "Run",
     "npm.build.executor": "Run",
@@ -97,11 +99,11 @@
       <recent name="D:\home\cats" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\home\cats\app" />
       <recent name="D:\home\cats" />
       <recent name="D:\home\cats\frontend\src\components" />
       <recent name="D:\home\cats\frontend\src\assets" />
       <recent name="D:\home\cats\frontend" />
-      <recent name="D:\home\cats\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -175,6 +177,8 @@
       <workItem from="1767101830499" duration="61000" />
       <workItem from="1767101906865" duration="603000" />
       <workItem from="1767102526318" duration="68000" />
+      <workItem from="1767129454839" duration="1078000" />
+      <workItem from="1767130564662" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
