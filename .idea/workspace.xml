@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="fix docker-compose.yaml">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/CatComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CatComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,9 @@
     &quot;accountId&quot;: &quot;300efbf2-e388-4425-b618-b837be591ae1&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -59,19 +64,22 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
-    "javascript.preferred.runtime.type.id": "node",
+    "javascript.preferred.runtime.type.id": "bun",
     "last_opened_file_path": "D:/home/cats-app/app",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
+    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+    "nodejs_package_manager_path": "bun",
     "npm.build (1).executor": "Run",
     "npm.build.executor": "Run",
     "npm.dev (1).executor": "Run",
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "D:\\home\\cats-app\\frontend\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
     "ts.external.directory.path": "C:\\Users\\vald1\\AppData\\Local\\JetBrains\\WebStorm2025.3\\ts-go-fork-embedded\\0.0.8",
     "vue.rearranger.settings.migration": "true"
   },
@@ -96,7 +104,7 @@
       <recent name="D:\home\cats\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -119,28 +127,8 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+      <package-json value="$PROJECT_DIR$/app/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -151,11 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment (1)" />
-        <item itemvalue="npm.build (1)" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +172,9 @@
       <workItem from="1766581420163" duration="5387000" />
       <workItem from="1766587091252" duration="144000" />
       <workItem from="1766587269979" duration="5182000" />
+      <workItem from="1767101830499" duration="61000" />
+      <workItem from="1767101906865" duration="603000" />
+      <workItem from="1767102526318" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
