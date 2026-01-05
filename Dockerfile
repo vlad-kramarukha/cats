@@ -1,12 +1,12 @@
-FROM oven/bun:alpine AS builder
+FROM oven/bun:latest AS builder
 LABEL authors="vlad_kramarukha"
 
 WORKDIR /app
-COPY package.json /app
+COPY package.json .
 
 RUN bun install
 
-COPY . /app
+COPY . .
 
 RUN bun run build
 
