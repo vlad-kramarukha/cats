@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="move files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,8 +94,8 @@
       <recent name="D:\home\cats" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\home\cats\app" />
       <recent name="D:\home\cats" />
+      <recent name="D:\home\cats\app" />
       <recent name="D:\home\cats\frontend\src\components" />
       <recent name="D:\home\cats\frontend\src\assets" />
       <recent name="D:\home\cats\frontend" />
@@ -176,7 +174,7 @@
       <workItem from="1767102526318" duration="68000" />
       <workItem from="1767129454839" duration="1078000" />
       <workItem from="1767130564662" duration="38000" />
-      <workItem from="1767623083563" duration="2025000" />
+      <workItem from="1767623083563" duration="2595000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -306,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766591248943</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="move files">
+      <option name="closed" value="true" />
+      <created>1767626803985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767626803985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +340,7 @@
     <MESSAGE value="test on http" />
     <MESSAGE value="updates" />
     <MESSAGE value="fix docker-compose.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix docker-compose.yaml" />
+    <MESSAGE value="move files" />
+    <option name="LAST_COMMIT_MESSAGE" value="move files" />
   </component>
 </project>

@@ -6,7 +6,7 @@ COPY package.json .
 
 RUN bun install
 
-COPY app .
+COPY . .
 
 RUN bun run build
 
