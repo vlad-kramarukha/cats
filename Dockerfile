@@ -2,11 +2,11 @@ FROM oven/bun:alpine AS builder
 LABEL authors="vlad_kramarukha"
 
 WORKDIR /app
-COPY package.json .
+COPY package.json /app
 
 RUN bun install
 
-COPY . .
+COPY . /app
 
 RUN bun run build
 
