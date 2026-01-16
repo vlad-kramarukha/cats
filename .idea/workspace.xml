@@ -103,7 +103,7 @@
       <recent name="D:\home\cats\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -140,6 +140,16 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/app/package.json" />
       <command value="run" />
@@ -152,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="Docker.app/Dockerfile" />
         <item itemvalue="Docker.Dockerfile" />
@@ -194,7 +205,7 @@
       <workItem from="1767623083563" duration="6228000" />
       <workItem from="1767639570603" duration="665000" />
       <workItem from="1768557351533" duration="4431000" />
-      <workItem from="1768571247837" duration="4272000" />
+      <workItem from="1768571247837" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -548,7 +559,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768575379067</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768589274306</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1768589274306</updated>
+    </task>
+    <task id="LOCAL-00046" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768589295209</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1768589295209</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
