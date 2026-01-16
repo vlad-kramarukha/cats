@@ -9,7 +9,7 @@ RUN bun install
 
 COPY . .
 
-RUN bun run build
+RUN bun run build --base=/cat/
 
 FROM nginx:latest
 
