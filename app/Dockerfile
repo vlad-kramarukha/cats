@@ -9,7 +9,7 @@ RUN bun install
 
 COPY . .
 
-RUN bun run build --base=/cats/
+RUN bun run build --base=${BASE_PATH}
 
 FROM nginx:latest
 
