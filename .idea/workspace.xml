@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/app/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,79 +208,7 @@
       <workItem from="1767623083563" duration="6228000" />
       <workItem from="1767639570603" duration="665000" />
       <workItem from="1768557351533" duration="4431000" />
-      <workItem from="1768571247837" duration="11176000" />
-    </task>
-    <task id="LOCAL-00008" summary="fix: fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766588476704</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1766588476704</updated>
-    </task>
-    <task id="LOCAL-00009" summary="test on http">
-      <option name="closed" value="true" />
-      <created>1766588934210</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1766588934210</updated>
-    </task>
-    <task id="LOCAL-00010" summary="updates">
-      <option name="closed" value="true" />
-      <created>1766589741448</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1766589741448</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766589974883</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1766589974883</updated>
-    </task>
-    <task id="LOCAL-00012" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766590182881</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1766590182881</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766590479789</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1766590479789</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766590565870</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1766590565870</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766591167912</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1766591167912</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fix docker-compose.yaml">
-      <option name="closed" value="true" />
-      <created>1766591248943</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1766591248943</updated>
+      <workItem from="1768571247837" duration="19157000" />
     </task>
     <task id="LOCAL-00017" summary="move files">
       <option name="closed" value="true" />
@@ -602,7 +530,79 @@
       <option name="project" value="LOCAL" />
       <updated>1768597166094</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768598155995</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1768598155995</updated>
+    </task>
+    <task id="LOCAL-00058" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768598246949</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1768598246949</updated>
+    </task>
+    <task id="LOCAL-00059" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768599501081</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1768599501081</updated>
+    </task>
+    <task id="LOCAL-00060" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768635223251</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1768635223251</updated>
+    </task>
+    <task id="LOCAL-00061" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768635553948</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1768635553948</updated>
+    </task>
+    <task id="LOCAL-00062" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768636171138</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1768636171138</updated>
+    </task>
+    <task id="LOCAL-00063" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768636654667</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1768636654667</updated>
+    </task>
+    <task id="LOCAL-00064" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768636791975</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1768636791975</updated>
+    </task>
+    <task id="LOCAL-00065" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768639958891</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1768639958891</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
