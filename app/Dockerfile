@@ -1,6 +1,8 @@
 FROM oven/bun:alpine AS builder
 LABEL authors="Vlad Kramarukha"
 
+ARG BASE_PATH
+
 WORKDIR /app
 
 COPY package.json .
