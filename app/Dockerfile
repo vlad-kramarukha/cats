@@ -1,4 +1,4 @@
-FROM oven/bun:alpine AS builder
+FROM oven/bun:slim AS builder
 LABEL authors="Vlad Kramarukha"
 
 ARG BASE_PATH
@@ -13,7 +13,7 @@ COPY . .
 
 RUN bun run build --base=${BASE_PATH}
 
-FROM nginx:latest
+FROM nginx:alpine-slim
 
 COPY --from=builder /app/dist /usr/share/nginx/html
 COPY --from=builder /app/nginx.conf /etc/nginx/conf.d/default.conf
