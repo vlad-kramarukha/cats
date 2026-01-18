@@ -97,6 +97,7 @@ function rotateCard() {
         <img
             :src="cat1"
             alt="Клёпа"
+            draggable="false"
             width="100%"
             class="card__front rounded-2xl"
             :class="{ rotate__front: isRotate }"

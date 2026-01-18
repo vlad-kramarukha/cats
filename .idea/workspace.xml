@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/app/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/CatComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CatComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,79 +208,8 @@
       <workItem from="1767623083563" duration="6228000" />
       <workItem from="1767639570603" duration="665000" />
       <workItem from="1768557351533" duration="4431000" />
-      <workItem from="1768571247837" duration="19157000" />
-    </task>
-    <task id="LOCAL-00017" summary="move files">
-      <option name="closed" value="true" />
-      <created>1767626803985</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1767626803985</updated>
-    </task>
-    <task id="LOCAL-00018" summary="fix dockerfile">
-      <option name="closed" value="true" />
-      <created>1767627334233</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1767627334233</updated>
-    </task>
-    <task id="LOCAL-00019" summary="fix dockerfile">
-      <option name="closed" value="true" />
-      <created>1767627625722</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1767627625722</updated>
-    </task>
-    <task id="LOCAL-00020" summary="fix dockerfile">
-      <option name="closed" value="true" />
-      <created>1767627992852</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1767627992852</updated>
-    </task>
-    <task id="LOCAL-00021" summary="fix dockerfile">
-      <option name="closed" value="true" />
-      <created>1767628776721</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1767628776721</updated>
-    </task>
-    <task id="LOCAL-00022" summary="fix dockerfile">
-      <option name="closed" value="true" />
-      <created>1767630359219</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1767630359219</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update nginx.conf">
-      <option name="closed" value="true" />
-      <created>1768561096304</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1768561096304</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update nginx.conf">
-      <option name="closed" value="true" />
-      <created>1768561514628</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1768561514628</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update nginx.conf">
-      <option name="closed" value="true" />
-      <created>1768562267579</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1768562267579</updated>
+      <workItem from="1768571247837" duration="26205000" />
+      <workItem from="1768761618804" duration="861000" />
     </task>
     <task id="LOCAL-00026" summary="update Dockerfile">
       <option name="closed" value="true" />
@@ -602,7 +531,79 @@
       <option name="project" value="LOCAL" />
       <updated>1768639958891</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768641554462</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1768641554462</updated>
+    </task>
+    <task id="LOCAL-00067" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768641712125</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1768641712125</updated>
+    </task>
+    <task id="LOCAL-00068" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768641837377</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1768641837377</updated>
+    </task>
+    <task id="LOCAL-00069" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768641907512</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1768641907512</updated>
+    </task>
+    <task id="LOCAL-00070" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768668062203</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1768668062203</updated>
+    </task>
+    <task id="LOCAL-00071" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768668161265</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1768668161265</updated>
+    </task>
+    <task id="LOCAL-00072" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768668259299</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1768668259299</updated>
+    </task>
+    <task id="LOCAL-00073" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768671900090</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1768671900090</updated>
+    </task>
+    <task id="LOCAL-00074" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768672876874</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1768672876874</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
