@@ -1,8 +1,6 @@
 FROM oven/bun:slim AS builder
 LABEL authors="Vlad Kramarukha"
 
-ARG BASE_PATH
-
 WORKDIR /app
 
 COPY package.json .
@@ -11,7 +9,7 @@ RUN bun install
 
 COPY . .
 
-RUN bun run build --base=${BASE_PATH}
+RUN bun run build
 
 FROM nginx:alpine-slim
 
