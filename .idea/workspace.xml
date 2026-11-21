@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cats.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +67,12 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.12.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.10.4&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.12.4&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;bun&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/home/cats-app/app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -176,7 +183,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.11879.105" />
       </set>
     </attachedChunks>
   </component>
@@ -211,22 +218,11 @@
       <workItem from="1768571247837" duration="26205000" />
       <workItem from="1768761618804" duration="1521000" />
       <workItem from="1768854587658" duration="930000" />
-    </task>
-    <task id="LOCAL-00027" summary="updates">
-      <option name="closed" value="true" />
-      <created>1768563335484</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1768563335484</updated>
-    </task>
-    <task id="LOCAL-00028" summary="updates">
-      <option name="closed" value="true" />
-      <created>1768572056948</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1768572056948</updated>
+      <workItem from="1769177862765" duration="980000" />
+      <workItem from="1773330887383" duration="10000" />
+      <workItem from="1778592810675" duration="8000" />
+      <workItem from="1792957820846" duration="385000" />
+      <workItem from="1795264633527" duration="326000" />
     </task>
     <task id="LOCAL-00029" summary="updates">
       <option name="closed" value="true" />
@@ -604,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768762492334</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="updates">
+      <option name="closed" value="true" />
+      <created>1769177877480</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1769177877480</updated>
+    </task>
+    <task id="LOCAL-00077" summary="updates">
+      <option name="closed" value="true" />
+      <created>1769332141769</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1769332141769</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
