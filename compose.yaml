@@ -1,0 +1,42 @@
+name: cats
+
+services:
+  cats-app:
+    image: cats-app:${IMAGE_TAG:-local}
+    build:
+      context: ./app
+    restart: unless-stopped
+    expose:
+      - "3000"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:3000/"]
+      interval: 5s
+      timeout: 3s
+      start_period: 10s
+      retries: 6
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  nginx-core:
+    image: cats-nginx:${IMAGE_TAG:-local}
+    build:
+      context: ./nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      cats-app:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "nginx", "-t", "-q"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
