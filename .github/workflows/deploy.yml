@@ -22,7 +22,7 @@ env:
 
 jobs:
   build-app:
-    name: Build App
+    name: Build application
     if: github.ref == 'refs/heads/master'
     runs-on: [self-hosted, linux, ARM64]
     timeout-minutes: 30
