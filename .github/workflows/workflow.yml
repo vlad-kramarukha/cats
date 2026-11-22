@@ -9,7 +9,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Update configs
-        uses: actions/checkout
+        uses: actions/checkout@v7
         with:
           repository: vlad-kramarukha/nginx-config
           path: nginx-config
@@ -19,11 +19,11 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Update cats-app
-        uses: actions/checkout
+        uses: actions/checkout@v7
         with:
           path: cats
       - name: Build cats-app
-      - working-directory: nginx-config
+        working-directory: nginx-config
         run: docker compose build cats-app nginx-core
 
   deploy:
@@ -31,5 +31,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Deploy cats-app
-      - working-directory: nginx-config
+        working-directory: nginx-config
         run: docker compose up -d --no-build cats-app nginx-core
