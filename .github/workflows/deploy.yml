@@ -1,133 +1,84 @@
-#name: Build and deploy cats
-#
-#on:
-#  push:
-#    branches: [master]
-#    paths:
-#      - "app/**"
-#      - "nginx/**"
-#      - "compose.yaml"
-#      - ".github/workflows/deploy.yml"
-#  workflow_dispatch:
-#
-#permissions:
-#  contents: read
-#
-#concurrency:
-#  group: cats-production
-#  cancel-in-progress: false
-#
-#env:
-#  IMAGE_TAG: ${{ github.sha }}-${{ github.run_id }}
-#
-#jobs:
-#  build-app:
-#    name: Build App
-#    if: github.ref == 'refs/heads/master'
-#    runs-on: [self-hosted, linux, ARM64]
-#    timeout-minutes: 30
-#    defaults:
-#      run:
-#        shell: bash
-#    steps:
-#      - uses: actions/checkout@v7
-#        with:
-#          persist-credentials: false
-#      - name: Build application image
-#        run: |
-#          docker info > /dev/null
-#          docker compose config --quiet
-#          docker compose build --pull cats-app
-#
-#  build-nginx:
-#    name: Build Nginx
-#    if: github.ref == 'refs/heads/master'
-#    runs-on: [self-hosted, linux, ARM64]
-#    timeout-minutes: 15
-#    defaults:
-#      run:
-#        shell: bash
-#    steps:
-#      - uses: actions/checkout@v7
-#        with:
-#          persist-credentials: false
-#      - name: Build Nginx image
-#        run: |
-#          docker info > /dev/null
-#          docker compose config --quiet
-#          docker compose build --pull nginx-core
-#
-#  deploy:
-#    name: Deploy
-#    needs: [build-app, build-nginx]
-#    runs-on: [self-hosted, linux, ARM64]
-#    timeout-minutes: 10
-#    defaults:
-#      run:
-#        shell: bash
-#    steps:
-#      - uses: actions/checkout@v7
-#        with:
-#          persist-credentials: false
-#      - name: Check local images
-#        run: |
-#          docker image inspect "cats-app:$IMAGE_TAG" > /dev/null
-#          docker image inspect "cats-nginx:$IMAGE_TAG" > /dev/null
-#      - name: Validate Nginx configuration
-#        run: docker compose run --rm --no-deps nginx-core nginx -t
-#      - name: Deploy both images
-#        run: docker compose up -d --no-build --wait --wait-timeout 90
-#      - name: Show status
-#        run: docker compose ps
-#      - name: Show diagnostics on failure
-#        if: failure()
-#        run: |
-#          docker compose ps --all
-#          docker compose logs --no-color --tail 100
-
-name: 'cats-app-pipeline'
+name: Build and deploy cats
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
+    paths:
+      - "app/**"
+      - "nginx/**"
+      - "compose.yaml"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: cats-production
+  cancel-in-progress: false
+
+env:
+  IMAGE_TAG: ${{ github.sha }}-${{ github.run_id }}
+
 jobs:
-  build:
-    runs-on: self-hosted
+  build-app:
+    name: Build App
+    if: github.ref == 'refs/heads/master'
+    runs-on: [self-hosted, linux, ARM64]
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Build application image
         run: |
           docker info > /dev/null
           docker compose config --quiet
           docker compose build --pull cats-app
-          
-  nginx:
-    runs-on: self-hosted
-    needs: build
+
+  build-nginx:
+    name: Build Nginx
+    if: github.ref == 'refs/heads/master'
+    runs-on: [self-hosted, linux, ARM64]
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v7
-      - name: Build nginx image
-        run: |  
+        with:
+          persist-credentials: false
+      - name: Build Nginx image
+        run: |
           docker info > /dev/null
           docker compose config --quiet
           docker compose build --pull nginx-core
 
   deploy:
-    runs-on: self-hosted
-    needs: [build, nginx]
+    name: Deploy
+    needs: [build-app, build-nginx]
+    runs-on: [self-hosted, linux, ARM64]
+    timeout-minutes: 10
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v7
-
+        with:
+          persist-credentials: false
+      - name: Check local images
+        run: |
+          docker image inspect "cats-app:$IMAGE_TAG" > /dev/null
+          docker image inspect "cats-nginx:$IMAGE_TAG" > /dev/null
+      - name: Validate Nginx configuration
+        run: docker compose run --rm --no-deps nginx-core nginx -t
       - name: Deploy both images
         run: docker compose up -d --no-build --wait --wait-timeout 90
-
       - name: Show status
         run: docker compose ps
-
       - name: Show diagnostics on failure
         if: failure()
         run: |
