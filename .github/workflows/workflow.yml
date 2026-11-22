@@ -32,4 +32,4 @@ jobs:
     steps:
       - name: Deploy cats-app
         working-directory: nginx-config
-        run: docker compose up -d --no-build cats-app nginx-core
+        run: docker compose up -d --no-build --no-deps cats-app
