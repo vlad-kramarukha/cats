@@ -121,8 +121,6 @@ function rotateCard() {
 
         <p class="text-5xl max-sm:text-3xl">Нажми</p>
     </div>
-
-    <div class="text-3xl max-sm:text-xl text-center mt-4">v2.0</div>
 </template>
 
 <style scoped>

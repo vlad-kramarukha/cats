@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67270097-c4c1-43db-b429-fd386c4cb04e" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/CatComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/CatComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="D:\home\cats\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -166,8 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="Docker.app/Dockerfile" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
@@ -212,7 +212,15 @@
       <workItem from="1768571247837" duration="26205000" />
       <workItem from="1768761618804" duration="1521000" />
       <workItem from="1768854587658" duration="930000" />
-      <workItem from="1795265400708" duration="5162000" />
+      <workItem from="1795265400708" duration="4239000" />
+    </task>
+    <task id="LOCAL-00030" summary="updates">
+      <option name="closed" value="true" />
+      <created>1768572962196</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572962196</updated>
     </task>
     <task id="LOCAL-00031" summary="updates">
       <option name="closed" value="true" />
@@ -598,15 +606,7 @@
       <option name="project" value="LOCAL" />
       <updated>1795280707782</updated>
     </task>
-    <task id="LOCAL-00079" summary="updates">
-      <option name="closed" value="true" />
-      <created>1795287941739</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1795287941739</updated>
-    </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
