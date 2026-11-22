@@ -99,10 +99,16 @@ function rotateCard() {
             alt="Клёпа"
             draggable="false"
             width="100%"
-            class="card__front rounded-2xl"
+            class="card__front rounded-2xl shadow-[0_0_24px] shadow-black/40 dark:shadow-white/15"
             :class="{ rotate__front: isRotate }"
         />
-        <img :src="cat2" alt="Йося" width="100%" class="card__back rounded-2xl" :class="{ rotate__back: isRotate }" />
+        <img
+            :src="cat2"
+            alt="Йося"
+            width="100%"
+            class="card__back rounded-2xl shadow-[0_0_24px] shadow-black/40 dark:shadow-white/15"
+            :class="{ rotate__back: isRotate }"
+        />
     </div>
 
     <div class="grid place-content-center px-2 py-2 mt-4 animate-bounce">
