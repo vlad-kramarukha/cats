@@ -1,0 +1,35 @@
+name: cats-app-pipeline
+
+on:
+  push:
+    branches: master
+
+jobs:
+  configs:
+    runs-on: self-hosted
+    steps:
+      - name: Update configs
+        uses: actions/checkout
+        with:
+          repository: vlad-kramarukha/nginx-config
+          path: nginx-config
+
+  build:
+    needs: configs
+    runs-on: self-hosted
+    steps:
+      - name: Update cats-app
+        uses: actions/checkout
+        with:
+          path: cats
+      - name: Build cats-app
+      - working-directory: nginx-config
+        run: docker compose build cats-app nginx-core
+
+  deploy:
+    needs: [configs, build]
+    runs-on: self-hosted
+    steps:
+      - name: Deploy cats-app
+      - working-directory: nginx-config
+        run: docker compose up -d --no-build cats-app nginx-core
